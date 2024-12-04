@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovanni's Portfolio</title>
+
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header> 
+    <main class="main">
+        <div class="start">
+            <img src="{% static 'img/yo.png' %}" alt="yo">
+            <div class="start-text">
+                <h1>Hi, I'm Giovanni</h1>
+                <p>I'm a software developer</p>   
+            </div>
+            
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="{% static 'img/yo.png' %}" alt="yo">
+                <h3>Project 1</h3>
+                <p>Description of project 1</p>
+            </div>
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <p>I'm a software developer</p>
+        </div>
+    </main>  
+</body>
+</html>
