@@ -1,0 +1,73 @@
+header {
+  padding: 1em;
+  text-align: center;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición*/
+  
+}
+
+nav{
+  height: 35px;
+  border-bottom: 1px solid #415A77;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  text-align: end;
+  
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav img{
+  margin-left: 30px;
+}
+
+header a{
+  list-style: none;
+  text-decoration: none; 
+  color: #E0E1DD;
+  
+}
+
+.HAC{
+  margin-left: 55%;
+}
+
+.list-options{
+  position: relative; 
+  stroke: #E0E1DD;
+  height: 30px;
+  display: none;
+  left: 10px;
+}
+
+.list-options path{
+  fill: #E0E1DD;
+}
+
+
+@media (max-width: 600px){
+  #home{
+    display: none; 
+  }
+  #Projects{
+    display: none; 
+  }
+  #AbautMe{
+    display: none; 
+  }
+  #Contact{
+    display: none; 
+  } 
+  
+  .list-options{
+    display: flex;
+  }
+}

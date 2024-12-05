@@ -4,12 +4,42 @@
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'styles/header.css' %}">
 </head>
 <body>
-    <li>
-        <ul>
-            <h1>hola</h1>
-        </ul>
-    </li>    
+    <header>
+        <nav>
+            <ul>
+                <li><img src="" alt="firma"></li>
+                <ul class="HAC">
+                    <li onclick="">
+                        <svg class="list-options" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1H1V3H3V1Z" />
+                            <path d="M3 5H1V7H3V5Z" />
+                            <path d="M1 9H3V11H1V9Z" />
+                            <path d="M3 13H1V15H3V13Z" />
+                            <path d="M15 1H5V3H15V1Z" />
+                            <path d="M15 5H5V7H15V5Z" />
+                            <path d="M5 9H15V11H5V9Z" />
+                            <path d="M15 13H5V15H15V13Z" />
+                        </svg>
+                        <!--
+                        <svg class="list-options"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 8H20M11 12H20M14 16H20M4 8H4.01M7 12H7.01M10 16H10.01"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        -->
+                    </li>
+                    <li id="home"><a href="home">Home</a></li>
+                    <li id="Projects"><a href="Projects">Projects</a></li>
+                    <li id="AbautMe"><a href="Abaut Me">About</a></li>
+                    <li id="Contact"><a href="Contact">Contact</a></li>
+                </ul>
+            </ul>
+        </nav>   
+    </header>       
 </body>
 </html>
+
+
+
